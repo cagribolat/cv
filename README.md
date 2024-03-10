@@ -1,5 +1,3 @@
-
-
 <header>
   <h1>çağrı bolat</h1>
 </header>
