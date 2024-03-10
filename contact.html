@@ -31,18 +31,25 @@ body {
 .inputFields {
     margin-bottom: 20px;
 }
-.inputFields input,
-.inputFields textarea {
-    width: 100%;
+.inputFields input[type="text"],
+.inputFields input[type="email"] {
+    width: 300px; /* isim ve email kutusu genişliği */
+    height: 30px; /* isim ve email kutusu yüksekliği */
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #000; /* siyah kenarlık */
     border-radius: 5px; /* kenar yuvarlatma */
 }
-.inputFields input:focus,
-.inputFields textarea:focus {
-    outline: none;
-    border-color: #555; /* odaklandığında kenarlık rengi */
+.contactForm__input.subject {
+    width: calc(100% - 22px); /* subject kutusu genişliği */
+}
+.contactForm__input.textBox {
+    width: 100%; /* mesaj kutusu genişliği */
+    height: 200px; /* mesaj kutusu yüksekliği */
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #000; /* siyah kenarlık */
+    border-radius: 5px; /* kenar yuvarlatma */
 }
 #g-recaptcha {
     /* reCAPTCHA stili */
