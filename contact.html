@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact Form</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <style>
 body {
     font-family: Arial, sans-serif;
@@ -32,25 +33,22 @@ body {
     margin-bottom: 20px;
 }
 .inputFields input[type="text"],
-.inputFields input[type="email"] {
-    width: 300px; /* isim ve email kutusu genişliği */
-    height: 30px; /* isim ve email kutusu yüksekliği */
+.inputFields input[type="email"],
+.inputFields input[type="text"],
+.inputFields textarea {
+    width: 300px; /* isim, email, subject ve mesaj kutusu genişliği */
+    height: 30px; /* isim, email, subject ve mesaj kutusu yüksekliği */
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #000; /* siyah kenarlık */
     border-radius: 5px; /* kenar yuvarlatma */
 }
 .contactForm__input.textBox {
-    width: 300px; /* mesaj kutusu genişliği */
     height: 200px; /* mesaj kutusu yüksekliği */
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #000; /* siyah kenarlık */
-    border-radius: 5px; /* kenar yuvarlatma */
     resize: none; /* yeniden boyutlandırmayı devre dışı bırak */
 }
 #g-recaptcha {
-    /* reCAPTCHA stili */
+    margin-bottom: 20px;
 }
 .contactForm__submit {
     background-color: #000; /* gönder düğmesi arka plan rengi */
@@ -87,11 +85,10 @@ body {
         <div class="inputFields">
             <input type="text" placeholder="Name" id="name" class="contactForm__input input" name="name" autocomplete="name" required="">
             <input type="email" placeholder="Email" id="email" class="contactForm__input input" name="email" autocomplete="email" required="">
+            <input type="text" placeholder="Subject" name="subject" class="contactForm__input input" required="">
         </div>
         <textarea name="message" id="message" class="contactForm__input textBox" cols="30" rows="10" placeholder="Message" required=""></textarea>
-        <div id="g-recaptcha">
-            <!-- reCAPTCHA -->
-        </div>
+        <div id="g-recaptcha" class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
         <br>
         <input type="submit" name="submit" value="Send Message" class="contactForm__submit">
     </form>
