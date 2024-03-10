@@ -40,16 +40,14 @@ body {
     border: 1px solid #000; /* siyah kenarlık */
     border-radius: 5px; /* kenar yuvarlatma */
 }
-.contactForm__input.subject {
-    width: calc(100% - 22px); /* subject kutusu genişliği */
-}
 .contactForm__input.textBox {
-    width: 100%; /* mesaj kutusu genişliği */
+    width: 300px; /* mesaj kutusu genişliği */
     height: 200px; /* mesaj kutusu yüksekliği */
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #000; /* siyah kenarlık */
     border-radius: 5px; /* kenar yuvarlatma */
+    resize: none; /* yeniden boyutlandırmayı devre dışı bırak */
 }
 #g-recaptcha {
     /* reCAPTCHA stili */
@@ -90,7 +88,6 @@ body {
             <input type="text" placeholder="Name" id="name" class="contactForm__input input" name="name" autocomplete="name" required="">
             <input type="email" placeholder="Email" id="email" class="contactForm__input input" name="email" autocomplete="email" required="">
         </div>
-        <input type="text" placeholder="Subject" name="subject" class="contactForm__input subject" required="">
         <textarea name="message" id="message" class="contactForm__input textBox" cols="30" rows="10" placeholder="Message" required=""></textarea>
         <div id="g-recaptcha">
             <!-- reCAPTCHA -->
