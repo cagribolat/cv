@@ -1,8 +1,6 @@
-# cv
+<h1 align="center">
+  <img src="https://avatars.githubusercontent.com/u/52715393?v=4" alt="Çağrı Bolat" style="width: 100px; height: 100px; border-radius: 50%;">
 
-https://avatars.githubusercontent.com/u/52715393?v=4
-
-Hello World,this is my profile
 <h1 align="center">Hi 👋, I'm Çağrı</h1>
 <h3 align="center">UI/UX Designer</h3>
 
@@ -18,8 +16,10 @@ Hello World,this is my profile
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
+<a href="https://linkedin.com/in/%c3%a7a%c4%9fr%c4%b1bolat/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="%c3%a7a%c4%9fr%c4%b1bolat/" height="30" width="40" /></a> 
+  
 <a href="https://twitter.com/editorcagri" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="editorcagri" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/%c3%a7a%c4%9fr%c4%b1bolat/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="%c3%a7a%c4%9fr%c4%b1bolat/" height="30" width="40" /></a>
+
 <a href="https://medium.com/@cagribolat" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/medium.svg" alt="@cagribolat" height="30" width="40" /></a>
 </p>
 
