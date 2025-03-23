@@ -1,12 +1,12 @@
-<h1 align="center">
+<h1 align="left">
   <img src="https://avatars.githubusercontent.com/u/52715393?v=4" alt="Çağrı Bolat" style="width: 100px; height: 100px; border-radius: 50%;">
 
-<h1 align="center">Hi 👋, I'm Çağrı</h1>
-<h3 align="center">UI/UX Designer</h3>
+<h1 align="left">Hi 👋, I'm Çağrı</h1>
+<h1 align="center">UI/UX Designer</h1>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=cagribolat&label=Profile%20views&color=0e75b6&style=flat" alt="cagribolat" /> </p>
+<p align="right"> <img src="https://komarev.com/ghpvc/?username=cagribolat&label=Profile%20views&color=0e75b6&style=flat" alt="cagribolat" /> </p>
 
-<p align="right"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=cagribolat" alt="cagribolat" /></a> </p>
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=cagribolat" alt="cagribolat" /></a> </p>
 
 
 
