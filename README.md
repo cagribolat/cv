@@ -2,13 +2,13 @@
   <img src="https://avatars.githubusercontent.com/u/52715393?v=4" alt="Çağrı Bolat" style="width: 100px; height: 100px; border-radius: 50%;">
 
 <h1 align="center">Hi 👋, I'm Çağrı</h1>
-<h3 align="center">A passionate UI/UX Designer from Türkiye</h3>
+<h3 align="center">UI/UX Designer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=cagribolat&label=Profile%20views&color=0e75b6&style=flat" alt="cagribolat" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=cagribolat" alt="cagribolat" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/editorcagri" target="blank"><img src="https://img.shields.io/twitter/follow/editorcagri?logo=twitter&style=for-the-badge" alt="editorcagri" /></a> </p>
+
 
 - 🔭 I’m currently working on **Figma**
 
